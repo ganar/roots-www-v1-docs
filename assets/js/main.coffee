@@ -6,7 +6,7 @@ requirejs.config
       deps: ['jquery']
   paths:
     jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min'
-    waypoints: 'js/waypoints.min'
+    waypoints: 'waypoints.min'
 
 # this will fire once the required scripts have been loaded
 require ['jquery', 'waypoints'], ($) ->

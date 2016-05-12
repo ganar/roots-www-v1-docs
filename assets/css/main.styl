@@ -6,13 +6,14 @@ flash-notices()
 blue = #3e444d
 orange = #e77552
 img-path = 'img/'
+baseURL = 'http://ganar.github.io/roots-www-v1-docs'
 
 @font-face
   font-family: 'entypo'
-  src: url('fonts/entypo/entypo.eot?#iefix') format('embedded-opentype'),
-       url('fonts/entypo/entypo.woff') format('woff'),
-       url('fonts/entypo/entypo.ttf')  format('truetype'),
-       url('fonts/entypo/entypo.svg#svgFontName') format('svg')
+  src: url(baseURL+'/fonts/entypo/entypo.eot?#iefix') format('embedded-opentype'),
+       url(baseURL+'/fonts/entypo/entypo.woff') format('woff'),
+       url(baseURL+'/fonts/entypo/entypo.ttf')  format('truetype'),
+       url(baseURL+'/fonts/entypo/entypo.svg#svgFontName') format('svg')
 
 body
   border-top: 7px solid orange
@@ -459,7 +460,7 @@ input
 footer
   width: 100%
   height: 250px
-  background: lighten(#e7ebf2, 30%) url('img/circle-logo.svg') center center no-repeat
+  background: lighten(#e7ebf2, 30%) url(baseURL+'/img/circle-logo.svg') center center no-repeat
   background-size: 100px 100px
 
 // animations!
